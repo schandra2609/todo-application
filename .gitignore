@@ -1,4 +1,45 @@
+# ------------------------------
+# Node / Package Manager
+# ------------------------------
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 package-lock.json
+
+# ------------------------------
+# Build Output
+# ------------------------------
 dist/
-build/
+*.local
+
+# ------------------------------
+# Environment Files
+# ------------------------------
+.env
+.env.local
+.env.*.local
+
+# ------------------------------
+# OS / Editor Files
+# ------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ------------------------------
+# Netlify
+# ------------------------------
+.netlify/
+
+# ------------------------------
+# Test / Coverage (future)
+# ------------------------------
+coverage/
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.log
