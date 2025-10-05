@@ -5,10 +5,10 @@ A sleek and modern To-Do application built with React and Tailwind CSS. This pro
 ## 📸 Screenshots
 
 
-![To-Do Application](src/screenshots/todo-1.png)
+![To-Do Application](screenshots/todo-1.png)
 *A preview of the To-Do Application's main interface (Desktop View)*
 
-![To-Do Application](src/screenshots/todo-2.jpg)
+![To-Do Application](screenshots/todo-2.jpg)
 *The application in dark mode, showcasing task management (Mobile View)*
 
 ## ✨ Features
@@ -62,6 +62,23 @@ yarn build
 ```
 
 This will create a `dist/` folder with optimized and production-ready static files for deployment.
+
+### Deploy on Netlify
+1. **Install Netlify-CLI**: Make sure you have Node.js and npm installed, then run:
+```bash
+npm install -g netlify-cli
+```
+
+2. **Authenticate with Netlify**: Login to your Netlify account (or create one if you don’t have it):
+```bash
+netlify login
+```
+This command opens a browser window where you can authorize Netlify-CLI.
+
+3. **Deploy to Netlify**: Use the Netlify-CLI to build your project for production and deploy it:
+```bash
+npm run netlify-deploy     # Custom npm script for both building for production and deploying on netlify
+```
 
 ## 🎯 How to Use
 
